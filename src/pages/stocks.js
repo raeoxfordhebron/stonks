@@ -6,10 +6,10 @@ const Stocks = (props) => {
     return (
         <div>
             <h1>
-                {stock[0].symbol}
+                Symbol: {stock[0].symbol}
             </h1>
             <h2>
-                {stock[0].stockPrice}
+                Price: {stock[0].stockPrice}
             </h2>
         </div>
     )
