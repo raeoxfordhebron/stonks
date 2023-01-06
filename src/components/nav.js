@@ -5,7 +5,7 @@ const Nav = (props) => {
     return(
         <div className="nav">
             <Link to="/stocks">
-                <div>iStocks</div>
+                <div id="istocks">iStocks</div>
             </Link>
             <Link to="/stocks">
                 <div>Stocks</div>
@@ -16,3 +16,5 @@ const Nav = (props) => {
         </div>
     )
 }
+
+export default Nav

@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom"
-import data from "./data.json"
+import data from "../data.json"
 
 const Dashboard = (props) => {
     return (
@@ -10,6 +10,7 @@ const Dashboard = (props) => {
                     <Link to={`/stocks/${symbol}`}>
                         <h2>{name}</h2>
                     </Link>
+                    
                 )
             })}
         </div>

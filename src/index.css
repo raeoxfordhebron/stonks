@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav {
+  background-color: purple;
+  margin: 5px;
+  display: flex;
+  min-height: 3em;
+}
+
+.nav div {
+  color: white;
+  margin: 1em;
+}
+
+#istocks {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
